@@ -105,6 +105,6 @@ Alternatively, on the command line, you can run the following commands:
      author={Anna Laurinavichyute and Shravan Vasishth},
      year = {2021},
      code = {https://osf.io/3bzu8/},
-     OPTpdf = {},
+     pdf = {https://psyarxiv.com/hf297/},
      note = {submitted to the Journal of Memory and Language}
      }
