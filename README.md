@@ -9,7 +9,8 @@ Authors: [Anna Laurinavichyute](https://annlaurin.github.io/) and [Shravan Vasis
 
 The directory has the following structure: 
 
-- The *data* folder contains the anonymized table with information about the surveyed papers. - The *R* folder contains supplementary scripts that you may need. 
+- The *data* folder contains the anonymized table with information about the surveyed papers.
+- The *R* folder contains supplementary scripts that you may need. 
 - The *paper* folder contains all the files necessary for generating the pdf of the manuscript. 
 
 These files also include the descriptive and inferential statistical analyses that were performed.
