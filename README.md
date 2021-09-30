@@ -27,11 +27,11 @@ The paper can then be compiled by opening the file "paper/LaurinavichyuteVasisht
 
 ## Citation
 
-   @unpublished{LaurinavichyuteVasishth2021,
-   title={The (Ir)reproducibility of published analyses: {A} case study of 57 {JML} articles published between 2019 and 2021},
-  author={Anna Laurinavichyute and Shravan Vasishth},
-  year = {2021},
-  code = {https://osf.io/3bzu8/},
-  OPTpdf = {},
-  note = {submitted to the Journal of Memory and Language}
-  }
+     @unpublished{LaurinavichyuteVasishth2021,
+     title={The (Ir)reproducibility of published analyses: {A} case study of 57 {JML} articles published between 2019 and 2021},
+     author={Anna Laurinavichyute and Shravan Vasishth},
+     year = {2021},
+     code = {https://osf.io/3bzu8/},
+     OPTpdf = {},
+     note = {submitted to the Journal of Memory and Language}
+     }
