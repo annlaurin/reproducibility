@@ -23,7 +23,16 @@ Either you should install each of the required packages yourself or, if you want
 
 ## Compiling the manuscript
 
-The paper can then be compiled by opening the file "paper/LaurinavichyuteVasishthJML2021.Rnw" in RStudio and pressing the "Compile pdf" button. 
+The paper can then be compiled by opening the file "paper/LaurinavichyuteVasishthJML2021.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LaurinavichyuteVasishth" on the command line and then compile the file twice. 
+
+Alternatively, on the command line, you can run the following commands:
+
+    Rscript -e "library(knitr); knit('LaurinavichyuteVasishthJML2021.Rnw')"
+    pdflatex LaurinavichyuteVasishthJML2021.tex
+    biber LaurinavichyuteVasishthJML2021
+    pdflatex LaurinavichyuteVasishthJML2021.tex
+    pdflatex LaurinavichyuteVasishthJML2021.tex
+
 
 ## Citation
 
