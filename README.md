@@ -101,7 +101,7 @@ Alternatively, on the command line, you can run the following commands:
 ## Citation
 
      @unpublished{LaurinavichyuteVasishth2021,
-     title={The (Ir)reproducibility of published analyses: {A} case study of 57 {JML} articles published between 2019 and 2021},
+     title={The (ir)reproducibility of published analyses: {A} case study of 57 {JML} articles published between 2019 and 2021},
      author={Anna Laurinavichyute and Shravan Vasishth},
      year = {2021},
      code = {https://osf.io/3bzu8/},
