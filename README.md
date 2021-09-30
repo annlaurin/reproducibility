@@ -1,7 +1,6 @@
 This repository provides all the materials needed to reproduce the contents of the paper entitled 
 
-    "The (ir)reproducibility of published analyses: A case study of
-57 JML articles published between 2019 and 2021", by [Anna Laurinavichyute](https://annlaurin.github.io/) and [Shravan Vasishth](vasishth.github.io).
+    "The (ir)reproducibility of published analyses: A case study of 57 JML articles published between 2019 and 2021", by [Anna Laurinavichyute](https://annlaurin.github.io/) and [Shravan Vasishth](vasishth.github.io).
 
 ## Structure
 
