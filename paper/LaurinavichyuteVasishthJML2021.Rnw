@@ -80,10 +80,10 @@
 \twoaffiliations{Department of Linguistics, University of Potsdam, Potsdam, Germany}{Department of Linguistics, University of Potsdam, Potsdam, Germany}
 
 \authornote{Please send correspondence to anna.laurinavichyute@uni-potsdam.de.}
-\note{\today}
+%\note{\today}
 
 \journal{Submitted to the Journal of Memory and Language} 
-\volume{-} 
+\volume{Version dated 30 September 2021} 
 
 \keywords{open data; reproducible statistical analyses; reproducibility; open science; meta-research; journal policy}
 
@@ -220,7 +220,8 @@ Only \Sexpr{papers_with_data_no_code %>% filter(Reproducible == "yes") %>% nrow(
 \Sexpr{papers_with_code %>% filter(Reproducible == "yes") %>% nrow()} papers (\Sexpr{100 * round(papers_with_code %>% filter(Reproducible == "yes") %>% nrow() / papers_with_code %>% nrow(), 2)}\%) could be fully reproduced. Of all the papers that had accessible data, \Sexpr{sbst %>% filter (Reproducible == "yes") %>% nrow()} (\Sexpr{100 * round(papers_with_data %>% filter (Reproducible == "yes") %>% nrow() / papers_with_data %>% nrow(),2)}\%) could be fully reproduced. If we consider the reproducibility rate for all papers that entered the analysis, \Sexpr{100 * round(sbst %>% filter (Reproducible == "yes") %>% nrow() / sbst  %>% nrow(),2)}\% could be fully reproduced. Figure \ref{fig:reproducibility} summarizes the breakdown of reproducible papers depending on the presence of analysis code.
 
 <<reproducibilityfig, include = FALSE, echo=FALSE, message=FALSE>>=
-dir.create("images")
+ifelse(!dir.exists("images"), dir.create("images"), FALSE)
+
 myedges <- data.frame(ID = 1:8,
                    N1 = c("Not reproduced", "Reproduced",  "Not reproduced", 
                           "Reproduced",  "No code", "Code","No data", "Data"),
