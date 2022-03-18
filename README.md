@@ -102,10 +102,10 @@ To extract the R code from the .Rnw file, run a 'knitr::purl("LYVReproducibility
 
 ## Citation
 
-     @unpublished{LaurinavichyuteVasishth2021,
-     title={The (ir)reproducibility of published analyses: {A} case study of 57 {JML} articles published between 2019 and 2021},
-     author={Anna Laurinavichyute and Shravan Vasishth},
-     year = {2021},
+     @unpublished{LYVReproducibility2022,
+     title={Share the code, not just data: {A} case study of reproducibility of {JML} articles published under the open data policy},
+     author={Anna Laurinavichyute, Himanshu Yadav, and Shravan Vasishth},
+     year = {2022},
      code = {https://osf.io/3bzu8/},
      pdf = {https://psyarxiv.com/hf297/},
      note = {submitted to the Journal of Memory and Language}
