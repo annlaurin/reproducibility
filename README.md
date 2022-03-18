@@ -1,9 +1,8 @@
 This repository provides all the materials needed to reproduce the contents of the paper entitled 
 
-    "The (ir)reproducibility of published analyses: A case study of 
-    57 JML articles published between 2019 and 2021".
+    "Share the code, not just data: A case study of reproducibility of JML articles published under the open data policy".
 
-Authors: [Anna Laurinavichyute](https://annlaurin.netlify.app/) and [Shravan Vasishth](vasishth.github.io).
+Authors: [Anna Laurinavichyute](https://annlaurin.netlify.app/), [Himanshu Yadav](https://sites.google.com/site/himanshuyadavjnu/), and [Shravan Vasishth](vasishth.github.io).
 
 ## Structure
 
@@ -17,7 +16,7 @@ These files also include the descriptive and inferential statistical analyses th
 
 ## Prerequisites for compiling the paper: Install packages
 
-You will need a number of packages to run the code generating the paper (the file "paper/LaurinavichyuteVasishthJML2021.Rnw"). The .Rnw file assumes that the packages are installed and can be loaded. If you don't have them installed, the document will not compile. 
+You will need a number of packages to run the code generating the paper (the file "paper/LYVReproducibility2022.Rnw"). The .Rnw file assumes that the packages are installed and can be loaded. If you don't have them installed, the document will not compile. 
 
 Either you should install each of the required packages yourself or, if you want to install all the packages in one go, run the script "R/install_packages.R". This script checks whether the needed packages are installed and if not, installs them for you.
 
@@ -27,12 +26,15 @@ The paper can then be compiled by opening the file "paper/LaurinavichyuteVasisht
 
 Alternatively, on the command line, you can run the following commands:
 
-    Rscript -e "library(knitr); knit('LaurinavichyuteVasishthJML2021.Rnw')"
-    pdflatex LaurinavichyuteVasishthJML2021.tex
-    biber LaurinavichyuteVasishthJML2021
-    pdflatex LaurinavichyuteVasishthJML2021.tex
-    pdflatex LaurinavichyuteVasishthJML2021.tex
+    Rscript -e "library(knitr); knit('LYVReproducibility2022.Rnw')"
+    pdflatex LYVReproducibility2022.tex
+    biber LYVReproducibility2022
+    pdflatex LYVReproducibility2022.tex
+    pdflatex LYVReproducibility2022.tex
 
+## Extracting the R code
+
+To extract the R code from the .Rnw file, run a 'knitr::purl("LYVReproducibility2022.Rnw")' command in R.
 
 ## sessionInfo() output
 
