@@ -34,7 +34,11 @@ Alternatively, on the command line, you can run the following commands:
 
 ## Extracting the R code
 
-To extract the R code from the .Rnw file, run a 'knitr::purl("LYVReproducibility2022.Rnw")' command in R.
+To extract the R code from the .Rnw file, run a 
+
+    knitr::purl("LYVReproducibility2022.Rnw") 
+
+command in R.
 
 ## sessionInfo() output
 
