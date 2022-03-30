@@ -1,0 +1,119 @@
+Paper ID;Group;Assigned;Processed;Data_accessible;Preregistered;Code;Reproducible;Readme;Full_dataset;Relaxed_reproducible_1;Relaxed_reproducible_5;Relaxed_reproducible_10;Relaxed_reproducible_20;Unclear_column_names;Only_aggregated_data;Predictors_missing;Experiments_missing;Missing_data_used_in_script;Some_code_missing;Cannot_debug;Code_rot;Model_not_documented;Filenames_not_experiment_names;Unclear terms of use
+1;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+2;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;yes;;;;;yes
+3;Open data policy;yes;yes;yes;no;yes;no;no;yes;no;no;yes;yes;;;;;yes;;;;;;yes
+4;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+5;Open data policy;yes;yes;yes;no;yes;no;yes;no;no;no;no;yes;;;;yes;yes;;;;;;yes
+6;Open data policy;yes;yes;yes;no;no;no;no;yes;no;no;no;no;yes;;;;;;;;;yes;yes
+7;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;no
+8;Open data policy;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;yes;yes
+9;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+10;Open data policy;yes;yes;yes;no;yes;no;no;yes;no;no;no;no;;;;;yes;yes;yes;;;;no
+11;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+12;Open data policy;yes;yes;yes;no;no;no;yes;yes;no;no;no;no;;;;;;yes;;;;;yes
+13;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+14;Open data policy;yes;yes;yes;no;yes;no;no;no;no;no;no;no;;yes;;;yes;yes;;;;;no
+15;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+16;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;no
+17;Open data policy;yes;yes;yes;no;yes;no;yes;yes;no;no;no;no;;;;;;;;;yes;;yes
+18;Open data policy;yes;yes;yes;no;no;no;yes;yes;no;no;no;no;yes;;;;;yes;;;;yes;yes
+19;Open data policy;yes;yes;yes;no;no;no;yes;yes;no;yes;yes;yes;;;;;;;;;;;no
+20;Open data policy;yes;yes;yes;no;yes;no;yes;no;no;no;no;no;;yes;;;yes;;;;;;yes
+21;Open data policy;yes;yes;yes;no;no;no;no;no;no;no;no;yes;;;;yes;;;;;;;no
+22;Open data policy;yes;yes;yes;no;yes;no;no;no;no;no;no;yes;;;;;;;;;;;yes
+23;Open data policy;yes;yes;yes;no;no;no;yes;yes;no;yes;yes;yes;;;;yes;;;;;;;yes
+24;Open data policy;yes;yes;yes;no;no;no;yes;yes;no;no;no;yes;;;;;;;;;;;yes
+25;Open data policy;yes;yes;yes;no;yes;no;no;yes;no;no;no;yes;;;;;;;;;;;no
+26;Open data policy;yes;yes;yes;no;no;no;no;yes;no;no;no;yes;;;;;;;;;;;no
+27;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;no
+28;Open data policy;yes;yes;yes;no;no;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;no
+29;Open data policy;yes;yes;yes;yes;no;no;no;no;no;no;no;no;;;yes;;;;;;;;yes
+30;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+31;Open data policy;yes;yes;yes;no;no;no;no;no;no;no;no;no;;;;;;;;;;;no
+32;Open data policy;yes;yes;yes;no;yes;no;no;yes;no;yes;yes;yes;yes;;;;;;;;;;no
+33;Open data policy;yes;yes;yes;no;yes;no;yes;yes;no;no;no;no;;;yes;;;;;;;;yes
+34;Open data policy;yes;yes;yes;no;no;no;yes;yes;no;no;no;no;;;;;;;;;;;no
+35;Open data policy;yes;yes;yes;no;no;no;no;no;no;no;no;no;;;;yes;;;;;;yes;yes
+36;Open data policy;yes;yes;yes;no;no;no;no;yes;no;no;no;no;;;;;;;;;;;no
+37;Open data policy;yes;yes;yes;no;yes;no;yes;no;no;no;no;no;;;;yes;yes;;;;;yes;yes
+38;Open data policy;yes;yes;yes;no;yes;no;no;yes;no;yes;yes;yes;;;;;;;;;;;yes
+39;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+40;Open data policy;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+41;Open data policy;yes;yes;yes;no;yes;no;no;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+42;Open data policy;yes;yes;yes;no;no;no;no;no;no;no;no;no;;yes;;;;;;;;;yes
+43;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+44;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+45;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;no
+46;Open data policy;yes;yes;yes;no;no;no;yes;yes;no;no;no;no;;;;;;;;;;;yes
+47;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;no
+48;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+49;Open data policy;yes;yes;yes;no;no;no;no;no;no;no;yes;yes;;;;yes;;;;;;;no
+50;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+51;Open data policy;yes;yes;yes;no;no;no;no;no;no;no;no;no;;;yes;;;;;;;;yes
+52;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+53;Open data policy;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;yes;;;yes
+54;Open data policy;yes;yes;yes;no;no;no;no;no;no;no;no;no;;;;yes;;;;;;;yes
+55;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+56;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+57;Open data policy;yes;yes;no;no;no;no;no;no;no;no;no;no;;;;;;;;;;;
+58;Open data policy;yes;yes;yes;no;yes;yes;yes;yes;yes;yes;yes;yes;;;;;;;;;;;yes
+59;Open data policy;yes;yes;yes;no;yes;yes;no;yes;yes;yes;yes;yes;;;;;;;;;;;no
+1;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+2;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+3;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+4;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+5;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+6;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+7;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+8;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+9;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+10;Before open data policy;yes;yes;yes;no;no;NA;no;no;;;;;;;;;;;;;;;
+11;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+12;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+13;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+14;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+15;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+16;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+17;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+18;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+19;Before open data policy;yes;yes;yes;no;yes;NA;no;yes;;;;;;;;;;;;;;;
+20;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+21;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+22;Before open data policy;yes;yes;yes;no;yes;NA;yes;yes;;;;;;;;;;;;;;;
+23;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+24;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+25;Before open data policy;yes;yes;yes;no;no;NA;yes;yes;;;;;;;;;;;;;;;
+26;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+27;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+28;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+29;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+30;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+31;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+32;Before open data policy;yes;yes;yes;no;no;NA;no;yes;;;;;;;;;;;;;;;
+33;Before open data policy;yes;yes;yes;no;yes;NA;yes;yes;;;;;;;;;;;;;;;
+34;Before open data policy;yes;yes;yes;no;no;NA;yes;yes;;;;;;;;;;;;;;;
+35;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+36;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+37;Before open data policy;yes;yes;yes;no;no;NA;no;yes;;;;;;;;;;;;;;;
+38;Before open data policy;yes;yes;yes;no;no;NA;no;yes;;;;;;;;;;;;;;;
+39;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+40;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+41;Before open data policy;yes;yes;yes;yes;yes;NA;yes;yes;;;;;;;;;;;;;;;
+42;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+43;Before open data policy;yes;yes;yes;no;yes;NA;no;yes;;;;;;;;;;;;;;;
+44;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+45;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+46;Before open data policy;yes;yes;yes;no;yes;NA;yes;yes;;;;;;;;;;;;;;;
+47;Before open data policy;yes;yes;yes;no;yes;NA;yes;yes;;;;;;;;;;;;;;;
+48;Before open data policy;yes;yes;yes;no;yes;NA;no;yes;;;;;;;;;;;;;;;
+49;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+50;Before open data policy;yes;yes;yes;no;yes;NA;no;yes;;;;;;;;;;;;;;;
+51;Before open data policy;yes;yes;yes;no;yes;NA;no;yes;;;;;;;;;;;;;;;
+52;Before open data policy;yes;yes;yes;no;no;NA;no;no;;;;;;;;;;;;;;;
+53;Before open data policy;yes;yes;yes;no;yes;NA;yes;yes;;;;;;;;;;;;;;;
+54;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+55;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+56;Before open data policy;yes;yes;yes;no;yes;NA;no;yes;;;;;;;;;;;;;;;
+57;Before open data policy;yes;yes;yes;no;no;NA;no;yes;;;;;;;;;;;;;;;
+58;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
+59;Before open data policy;yes;yes;no;no;no;NA;no;no;;;;;;;;;;;;;;;
