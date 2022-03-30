@@ -1,6 +1,6 @@
 This repository provides all the materials needed to reproduce the contents of the paper entitled 
 
-**"Share the code, not just data: A case study of reproducibility of JML articles published under the open data policy"**.
+**"Share the code, not just the data: A case study of reproducibility of JML articles published under the open data policy"**.
 
 Authors: [Anna Laurinavichyute](https://annlaurin.netlify.app/), [Himanshu Yadav](https://sites.google.com/site/himanshuyadavjnu/), and [Shravan Vasishth](https://vasishth.github.io/).
 
