@@ -107,7 +107,7 @@ command in R.
 ## Citation
 
      @unpublished{LYVReproducibility2022,
-     title={Share the code, not just data: {A} case study of reproducibility of {JML} articles published under the open data policy},
+     title={Share the code, not just the data: {A} case study of reproducibility of {JML} articles published under the open data policy},
      author={Anna Laurinavichyute, Himanshu Yadav, and Shravan Vasishth},
      year = {2022},
      code = {https://osf.io/3bzu8/},
