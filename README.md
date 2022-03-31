@@ -26,7 +26,7 @@ Either you should install each of the required packages yourself or, if you want
 
 The explanation below presupposes that you are using either some kind of Linux machine or macOS. For comments on running the code on Windows, see below.
 
-The paper can then be compiled by opening the file "paper/LaurinavichyuteVasishthJML2021.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LaurinavichyuteVasishth" on the command line and then compile the file twice. 
+The paper can be compiled by opening the file "paper/LaurinavichyuteVasishthJML2021.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LaurinavichyuteVasishth" on the command line and then compile the file twice. 
 
 Alternatively, on the command line, you can run the following commands:
 
