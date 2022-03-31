@@ -1,3 +1,5 @@
+# Introduction 
+
 This repository provides all the materials needed to reproduce the contents of the paper entitled 
 
     "The (ir)reproducibility of published analyses: A case study of 
@@ -5,7 +7,7 @@ This repository provides all the materials needed to reproduce the contents of t
 
 Authors: [Anna Laurinavichyute](https://annlaurin.github.io/) and [Shravan Vasishth](vasishth.github.io).
 
-## Structure
+# Structure
 
 The directory has the following structure: 
 
@@ -15,13 +17,15 @@ The directory has the following structure:
 
 These files also include the descriptive and inferential statistical analyses that were performed.
 
-## Prerequisites for compiling the paper: Install packages
+# Prerequisites for compiling the paper: Install packages
 
 You will need a number of packages to run the code generating the paper (the file "paper/LaurinavichyuteVasishthJML2021.Rnw"). The .Rnw file assumes that the packages are installed and can be loaded. If you don't have them installed, the document will not compile. 
 
 Either you should install each of the required packages yourself or, if you want to install all the packages in one go, run the script "R/install_packages.R". This script checks whether the needed packages are installed and if not, installs them for you.
 
-## Compiling the manuscript
+# Compiling the manuscript (Linux/macOS)
+
+The explanation below presupposes that you are using either some kind of Linux machine or macOS. For comments on running the code on Windows, see below.
 
 The paper can then be compiled by opening the file "paper/LaurinavichyuteVasishthJML2021.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LaurinavichyuteVasishth" on the command line and then compile the file twice. 
 
@@ -34,7 +38,16 @@ Alternatively, on the command line, you can run the following commands:
     pdflatex LaurinavichyuteVasishthJML2021.tex
 
 
-## sessionInfo() output
+# Compiling the manuscript (Windows)
+
+To compile the paper on a recent version of Windows, you need to take the following steps:
+
+- After installing the latest versions of R and RStudio, follow these instructions to install RTools and rstan as explained here: https://github.com/stan-dev/rstan/wiki/Configuring-C---Toolchain-for-Windows
+- Then, install all the packages as discussed above under Prerequisites.
+- After that, you should be able to at least run all the R code after extracting it using purl.
+- If you want to compile the pdf from the Rnw file, you will need to install MiKTeX: https://miktex.org/. Once MiKTeX is installed, compile the Rnw file within RStudio, and then use MiKTeX to compile the .tex output to pdf as discussed above (biber is included in MiKTeX). This may or may not work, depending on whether MiKTeX is properly installed. But at least the above steps will allow you to run the R code on Windows.
+
+# sessionInfo() output
 
     > sessionInfo()
     R version 4.1.1 (2021-08-10)
@@ -98,7 +111,7 @@ Alternatively, on the command line, you can run the following commands:
     [109] grid_4.1.1           minqa_1.2.4          shiny_1.6.0         
     [112] lubridate_1.7.10     base64enc_0.1-3      dygraphs_1.1.1.6  
 
-## Citation
+# Citation
 
      @unpublished{LaurinavichyuteVasishth2021,
      title={The (ir)reproducibility of published analyses: {A} case study of 57 {JML} articles published between 2019 and 2021},
