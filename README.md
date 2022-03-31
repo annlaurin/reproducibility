@@ -12,35 +12,58 @@ Authors: [Anna Laurinavichyute](https://annlaurin.netlify.app/), [Himanshu Yadav
 
 The directory has the following structure: 
 
+            .
+            ├── LYVReproducibility2022.pdf
+            ├── R
+            │   └── install_packages.R
+            ├── README.md
+            ├── data
+            │   └── overview_numeric_anon.csv
+            └── paper
+                ├── LYVReproducibility2022.R
+                ├── LYVReproducibility2022.Rnw
+                ├── LYVReproducibility2022.bib
+                ├── model_inf_priors.rds
+                ├── model_inf_priors_relaxed.rds
+ 
+- LYVReproducibility2022.pdf is a copy of the paper as submitted on 31st March 2022.
+- The *R* folder contains supplementary scripts that you may need (see below, Prerequisites). Please read all the instructions below before running the R code.
+- README.md. This file.
 - The *data* folder contains the anonymized table with information about the surveyed papers.
-- The *R* folder contains supplementary scripts that you may need. 
-- The *paper* folder contains all the files necessary for generating the pdf of the manuscript. 
+- The *paper* folder contains all the files necessary for generating the pdf of the manuscript, as well as the extracted R code from the paper. Compiling the Rnw assumes that you have a proper LaTeX setup (see below).
 
 These files also include the descriptive and inferential statistical analyses that were performed.
 
 # Prerequisites for compiling the paper: Install packages
 
-You will need a number of packages to run the code generating the paper (the file "paper/LYVReproducibility2022.Rnw"). The .Rnw file assumes that the packages are installed and can be loaded. If you don't have them installed, the document will not compile. 
+You will need a number of R packages to run the code generating the paper (the file "paper/LYVReproducibility2022.Rnw"). The .Rnw file assumes that the packages are installed and can be loaded. If you don't have them installed, the document will not compile. 
 
-Either you should install each of the required packages yourself or, if you want to install all the packages in one go, run the script "R/install_packages.R". This script checks whether the needed packages are installed and if not, installs them for you.
+Either you should install each of the required R packages yourself or, if you want to install all the packages in one go, run the script "R/install_packages.R". This script checks whether the needed packages are installed and if not, installs them for you. Particularly for the package rstan, user will need to so some extra work:
+
+Please look at the instructions here for installing rstan and follow the instructions carefully, otherwise the code will not work:
+
+https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
+
+macOS users will need to have Xcode installed. For the latest version of macoS (Monterey), follow the instructions below for installing the needed R compiler tools:
+
+https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/ 
 
 # Compiling the manuscript (Linux/macOS)
 
-The explanation below presupposes that you are using either some kind of Linux machine or macOS. For comments on running the code on Windows, see below.
+The explanation below presupposes that you are using either some kind of Linux machine or a machine running a recent macOS version. For comments on trying to run the code on Windows, see below.
 
-The paper can be compiled by opening the file "paper/LYVReproducibility2022.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LaurinavichyuteVasishth" on the command line and then compile the file twice. 
+In principle, and assuming that everything is installed corrected on your machine, the paper can be compiled by opening the file "paper/LYVReproducibility2022.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LYVReproducibility2022" on the command line (in the terminal or within RStudio itself) and then compile the file twice. 
 
-Alternatively, on the command line, you can run the following commands:
+To bypass RStudio, you can compile the Rnw on the command line by typing the following command:
 
-    Rscript -e "library(knitr); knit('LYVReproducibility2022.Rnw')"
-    pdflatex LYVReproducibility2022.tex
-    biber LYVReproducibility2022
-    pdflatex LYVReproducibility2022.tex
-    pdflatex LYVReproducibility2022.tex
+    Rscript -e "library(knitr); knit('LYVReproducibility2022.Rnw')"; pdflatex LYVReproducibility2022.tex; biber LYVReproducibility2022; pdflatex LYVReproducibility2022.tex; pdflatex LYVReproducibility2022.tex
 
 ## Extracting the R code
 
-To extract the R code from the .Rnw file, run the R command below on the R command line (make sure you are in the directory where the Rnw file lives):
+
+We have already provided the extracted R code in the file: "paper/LYVReproducibility2022.R".
+
+If for some reason you want to extract the R code again from the .Rnw file, run the R command below on the R command line (make sure you are in the directory where the Rnw file lives):
 
     knitr::purl("LYVReproducibility2022.Rnw") 
 
