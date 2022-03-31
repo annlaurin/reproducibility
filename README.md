@@ -44,7 +44,7 @@ Please look at the instructions here for installing rstan and follow the instruc
 
 https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
 
-macOS users will need to have Xcode installed. For the latest version of macoS (Monterey), follow the instructions below for installing the needed R compiler tools:
+macOS users will need to have Xcode installed. For the latest version of macOS (Monterey), follow the instructions below for installing the needed R compiler tools:
 
 https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/ 
 
