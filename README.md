@@ -6,6 +6,8 @@ This repository provides all the materials needed to reproduce the contents of t
 
 Authors: [Anna Laurinavichyute](https://annlaurin.netlify.app/), [Himanshu Yadav](https://sites.google.com/site/himanshuyadavjnu/), and [Shravan Vasishth](https://vasishth.github.io/).
 
+**Download the paper from here**: https://psyarxiv.com/hf297/
+
 # Structure
 
 The directory has the following structure: 
@@ -26,7 +28,7 @@ Either you should install each of the required packages yourself or, if you want
 
 The explanation below presupposes that you are using either some kind of Linux machine or macOS. For comments on running the code on Windows, see below.
 
-The paper can be compiled by opening the file "paper/LaurinavichyuteVasishthJML2021.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LaurinavichyuteVasishth" on the command line and then compile the file twice. 
+The paper can be compiled by opening the file "paper/LYVReproducibility2022.Rnw" in RStudio and pressing the "Compile pdf" button. To generate the references you will have to run "biber LaurinavichyuteVasishth" on the command line and then compile the file twice. 
 
 Alternatively, on the command line, you can run the following commands:
 
@@ -38,11 +40,10 @@ Alternatively, on the command line, you can run the following commands:
 
 ## Extracting the R code
 
-To extract the R code from the .Rnw file, run a 
+To extract the R code from the .Rnw file, run the R command below on the R command line (make sure you are in the directory where the Rnw file lives):
 
     knitr::purl("LYVReproducibility2022.Rnw") 
 
-command in R.
 
 # Compiling the manuscript (Windows)
 
