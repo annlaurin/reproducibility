@@ -26,7 +26,7 @@ The directory has the following structure:
                 ├── model_inf_priors.rds
                 ├── model_inf_priors_relaxed.rds
  
-- LYVReproducibility2022.pdf is a copy of the paper as submitted on 31st March 2022.
+- LYVReproducibility2022.pdf is the accepted version of the paper.
 - The *R* folder contains supplementary scripts that you may need (see below, Prerequisites). Please read all the instructions below before running the R code.
 - README.md. This file.
 - The *data* folder contains the anonymized table with information about the surveyed papers.
@@ -76,6 +76,18 @@ To compile the paper on a recent version of Windows, you need to take the follow
 - Then, install all the packages as discussed above under Prerequisites.
 - After that, you should be able to at least run all the R code after extracting it using purl.
 - If you want to compile the pdf from the Rnw file, you will need to install MiKTeX: https://miktex.org/. Once MiKTeX is installed, compile the Rnw file within RStudio, and then use MiKTeX to compile the .tex output to pdf as discussed above (biber is included in MiKTeX). This may or may not work, depending on whether MiKTeX is properly installed. But at least the above steps will allow you to run the R code on Windows.
+
+# Citation
+
+	 @unpublished{LYVReproducibility2022,
+     title={Share the code, not just the data: {A case study of the reproducibility of articles published in the Journal of Memory and Language} under the open data policy},
+     author={Laurinavichyute, Anna and Yadav, Himanshu and Vasishth, Shravan},
+     year = {2022},
+     code = {https://osf.io/3bzu8/},
+     pdf = {https://psyarxiv.com/hf297/},
+     journal = {Journal of Memory and Language}
+	 }
+
 
 # sessionInfo() output
 
@@ -141,13 +153,4 @@ To compile the paper on a recent version of Windows, you need to take the follow
     [109] grid_4.1.1           minqa_1.2.4          shiny_1.6.0         
     [112] lubridate_1.7.10     base64enc_0.1-3      dygraphs_1.1.1.6  
 
-# Citation
 
-     @unpublished{LYVReproducibility2022,
-     title={Share the code, not just the data: {A} case study of reproducibility of {JML} articles published under the open data policy},
-     author={Anna Laurinavichyute, Himanshu Yadav, and Shravan Vasishth},
-     year = {2022},
-     code = {https://osf.io/3bzu8/},
-     pdf = {https://psyarxiv.com/hf297/},
-     note = {submitted to the Journal of Memory and Language}
-     }
